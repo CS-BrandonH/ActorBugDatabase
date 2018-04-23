@@ -2,7 +2,7 @@
 This is a repository to contain the database of a variety of open source actor bugs that were collected and processed via their bug properties. 
 
 
-{TODO: Completion Estimated at 4/17/18}
+{TODO: Completion Estimated at 4/24/18}
 1. Upload Actor Database: DONE
 2. Add Actor Bug Examples: Pending
 3. Commit Java file: Pending
