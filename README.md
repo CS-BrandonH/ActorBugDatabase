@@ -6,5 +6,5 @@ This is a repository to contain the database of a variety of open source actor b
 1. Upload Actor Database: DONE
 2. Add Actor Bug Examples: DONE
 3. Commit Java file: Pending
-4. Commit SQL database: Pending
+4. Commit SQL database: DONE
 5. Update README with Appropriate Information: Pending
