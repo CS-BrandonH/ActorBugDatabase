@@ -16,8 +16,8 @@ CREATE TABLE ActorBugs(Bug_Name varchar(100) NOT NULL, Web_Link varchar(255) NOT
 LOAD DATA LOCAL INFILE 'Actor_Bug_Database.csv' INTO TABLE ActorBugs COLUMNS TERMINATED BY '|' LINES TERMINATED BY '\n';
 
 
-
 :::EXAMPLE QUERIES:::
+
 SELECT Bug_Name, CBS_Aspect, CBS_Software, CBS_Implication FROM ActorBugs WHERE Bug_Name LIKE '%Squbs%';
 
 SELECT Bug_Name, Actor_Characteristic, CBS_Aspect, CBS_Software, FROM ActorBugs WHERE Actor_Characteristic LIKE '%Logic%';
@@ -25,3 +25,28 @@ SELECT Bug_Name, Actor_Characteristic, CBS_Aspect, CBS_Software, FROM ActorBugs 
 *NOTE* as the Web_Link and Issue_Title can be very long, depending on the interface used, such as a command line window, selecting multiple columns including those can cause presentation/formatting issues.
 
 
+:::KEY FOR CLOUD BUG STUDY LABELS:::
+
+Aspect:
+Availability = A
+Consistency = C
+Performance = P
+Reliability = R
+Scalability = S
+	
+Software:
+Load = A
+Configuration = C
+Error Handle = E
+Hang = H
+Logic = L
+Optimization = O
+Race = R
+	
+Implication:
+Data Corrupt = C
+Failed Operation = F
+Data Loss = L
+Performance = P
+Data Stale = S
+Component Down = T
