@@ -14,26 +14,26 @@ This is a repository to contain the database of a variety of open source actor b
 :::KEY FOR CLOUD BUG STUDY LABELS:::
 
 Aspect:
-Availability = A
-Consistency = C
-Performance = P
-Reliability = R
-Scalability = S
+1. Availability = A
+2. Consistency = C
+3. Performance = P
+4. Reliability = R
+5. Scalability = S
 	
 Software:
-Load = A
-Configuration = C
-Error Handle = E
-Hang = H
-Logic = L
-Optimization = O
-Race = R
+1. Load = A
+2. Configuration = C
+3. Error Handle = E
+4. Hang = H
+5. Logic = L
+6. Optimization = O
+7. Race = R
 	
 Implication:
-Data Corrupt = C
-Failed Operation = F
-Data Loss = L
-Performance = P
-Data Stale = S
-Component Down = T
+1. Data Corrupt = C
+2. Failed Operation = F
+3. Data Loss = L
+4. Performance = P
+5. Data Stale = S
+6. Component Down = T
 
