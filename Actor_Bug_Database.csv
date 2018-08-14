@@ -99,24 +99,24 @@
 [Spark-5761]|https://issues.apache.org/jira/browse/SPARK-5761|Revamp StandaloneRestProtocolSuite|Communication|Response|P|E|F
 [Spark-6640]|https://issues.apache.org/jira/browse/SPARK-6640|Executor may connect to HeartbeartReceiver before it's setup in the driver side|Coordination|Operation_Order|A|R|F
 [Spark-8881]|https://issues.apache.org/jira/browse/SPARK-8881|Standalone mode scheduling fails because cores assignment is not atomic|Logic|Logic|R|CH|FP
-[Spary-1019]|https://github.com/spray/spray/issues/1019|HTTP Client doesn't support "//" at the beginning or a URL path|Logic|Logic|R|L|F
-[Spary-20]|https://github.com/spray/spray/issues/20|MediaType matching is not case-insensitive for custom MediaTypes/-Ranges|Communication|Connection|RA|E|FT
-[Spary-37]|https://github.com/spray/spray/issues/37|RootService forgets attached HttpServices during restarts|Logic|Logic|R|EC|L
-[Spary-387]|https://github.com/spray/spray/issues/387|NPE in ResponseReceiveRef under stress|Logic|Logic|R|L|F
-[Spary-390]|https://github.com/spray/spray/issues/390|`finishConnect` may return false even if connection attempt is successful on Android|Logic|Logic|RC|L|F
-[Spary-459]|https://github.com/spray/spray/issues/459|Examine non-deterministic test-failure in release/1.0 branch|Communication|Message_Order|RA|R|F
-[Spary-513]|https://github.com/spray/spray/issues/513|File upload example in simple-http-server doesn't work for uploads < incoming-auto-chunking-threshold-size|Logic|Logic|R|C|FL
-[Spary-539]|https://github.com/spray/spray/issues/539|can: ConnectionTimeouts should Abort instead of close on idle timeout|Logic|Logic|R|L|F
-[Spary-633]|https://github.com/spray/spray/issues/633|client/io: SSL errors with 1.1/1.2-RC1|Communication|Connection|R|L|F
-[Spary-666]|https://github.com/spray/spray/issues/666|Negative 'openConnections' in StatsSupport |Communication|Connection|R|L|C
-[Spary-719]|https://github.com/spray/spray/issues/719|can: client redirection doesn't reuse already open connection|Communication|Response|P|O|P
-[Spary-72]|https://github.com/spray/spray/issues/72|spray-client: problems with concurrent HttpConduits|Coordination|Cooperation|S|L|F
-[Spary-78]|https://github.com/spray/spray/issues/78|If a connection managed by spray-client times out spray-client currently doesn't properly recover|Communication|ErrorHandle|R|L|F
-[Spary-788]|https://github.com/spray/spray/issues/788|RefUtils.isLocal doesn't support noSender==null|Communication|Response|A|L|T
-[Spary-789]|https://github.com/spray/spray/issues/789|httpx: Marshaller[Stream] doesn't support empty streams|Logic|Logic|R|L|F
-[Spary-798]|https://github.com/spray/spray/issues/798|Received unmatched send confirmation: NoAck(null)|Communication|Response|R|A|F
-[Spary-879]|https://github.com/spray/spray/issues/879|(IO(Http) ? HttpRequest) does not reply if the URL is malformed|Logic|Logic|R|L|F
-[Spary-99]|https://github.com/spray/spray/issues/99|getFromFileName issue with spray1.0M and akka2.0|Communication|Connection|RS|EC|FL
+[Spray-1019]|https://github.com/spray/spray/issues/1019|HTTP Client doesn't support "//" at the beginning or a URL path|Logic|Logic|R|L|F
+[Spray-20]|https://github.com/spray/spray/issues/20|MediaType matching is not case-insensitive for custom MediaTypes/-Ranges|Communication|Connection|RA|E|FT
+[Spray-37]|https://github.com/spray/spray/issues/37|RootService forgets attached HttpServices during restarts|Logic|Logic|R|EC|L
+[Spray-387]|https://github.com/spray/spray/issues/387|NPE in ResponseReceiveRef under stress|Logic|Logic|R|L|F
+[Spray-390]|https://github.com/spray/spray/issues/390|`finishConnect` may return false even if connection attempt is successful on Android|Logic|Logic|RC|L|F
+[Spray-459]|https://github.com/spray/spray/issues/459|Examine non-deterministic test-failure in release/1.0 branch|Communication|Message_Order|RA|R|F
+[Spray-513]|https://github.com/spray/spray/issues/513|File upload example in simple-http-server doesn't work for uploads < incoming-auto-chunking-threshold-size|Logic|Logic|R|C|FL
+[Spray-539]|https://github.com/spray/spray/issues/539|can: ConnectionTimeouts should Abort instead of close on idle timeout|Logic|Logic|R|L|F
+[Spray-633]|https://github.com/spray/spray/issues/633|client/io: SSL errors with 1.1/1.2-RC1|Communication|Connection|R|L|F
+[Spray-666]|https://github.com/spray/spray/issues/666|Negative 'openConnections' in StatsSupport |Communication|Connection|R|L|C
+[Spray-719]|https://github.com/spray/spray/issues/719|can: client redirection doesn't reuse already open connection|Communication|Response|P|O|P
+[Spray-72]|https://github.com/spray/spray/issues/72|spray-client: problems with concurrent HttpConduits|Coordination|Cooperation|S|L|F
+[Spray-78]|https://github.com/spray/spray/issues/78|If a connection managed by spray-client times out spray-client currently doesn't properly recover|Communication|ErrorHandle|R|L|F
+[Spray-788]|https://github.com/spray/spray/issues/788|RefUtils.isLocal doesn't support noSender==null|Communication|Response|A|L|T
+[Spray-789]|https://github.com/spray/spray/issues/789|httpx: Marshaller[Stream] doesn't support empty streams|Logic|Logic|R|L|F
+[Spray-798]|https://github.com/spray/spray/issues/798|Received unmatched send confirmation: NoAck(null)|Communication|Response|R|A|F
+[Spray-879]|https://github.com/spray/spray/issues/879|(IO(Http) ? HttpRequest) does not reply if the URL is malformed|Logic|Logic|R|L|F
+[Spray-99]|https://github.com/spray/spray/issues/99|getFromFileName issue with spray1.0M and akka2.0|Communication|Connection|RS|EC|FL
 [Squbs-29]|https://github.com/paypal/squbs/issues/29|Build is sporadically hanging on unit tests|Coordination|Operation_Order|R|RH|F
 [Squbs-294]|https://github.com/paypal/squbs/issues/294|Exception at Shutdown|Coordination|Shutdown|R|LR|F
 [Squbs-302]|https://github.com/paypal/squbs/issues/302|Cannot obtain port from auto-assignment if some listeners error out|Communication|ErrorHandle|A|LC|FT
